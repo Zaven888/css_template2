@@ -70,3 +70,29 @@ div {
 .icon {
   margin-top: 15%;
 }
+.company > p,
+.company h2 {
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+}
+.desktop {
+  margin-top: 1px;
+  margin: bottom 5px;
+}
+.desktop > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+.desktop > div i {
+  font-size: 64px;
+}
+.desktop > div p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 2.8;
+}
